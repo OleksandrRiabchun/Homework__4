@@ -40,7 +40,7 @@ void LCS_2(char* x, char* y) { // с помощью матрицы
 	}
 }
 
-int main() {
+void main() {
 	char a[] = "geekbrains";
 	char b[] = "geekminds";
 	printf("%d\n\n", LCS(&a, &b));

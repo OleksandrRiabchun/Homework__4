@@ -34,7 +34,7 @@ int routeWithoutObstacles(int x, int y) // Количество маршрутов без препятствий
 
 }
 
-int main(int argc, char* argv[])
+void main()
 {
     const int rows = N;
     const int cols = M;
